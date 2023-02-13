@@ -1,0 +1,58 @@
+.div1{
+    width: 100%;
+    height: 400px;
+}
+
+.div01{
+    
+        width: 100%;
+        height: 100vh;
+        background-image: url('../Images/lambo.jpg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        animation-name: example;
+        animation-duration: 12s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes example {
+          25% {background-image: url('../Images/lambo.jpg');}
+          50% {background-image: url('../Images/interior.jpg');}
+          75% {background-image: url('../Images/limo.jpg');}
+          100% {background-image: url('../Images/truck.jpg');}
+        }
+
+        .h11{
+            font-size: 50px;
+            color: white;
+            text-align: left;
+            padding-left: 50px;
+            padding-top: 50px;
+        }
+        .p11{
+            font-size: large;
+            font-weight: 500;
+            color: white;
+            text-align: left;
+            padding-left: 50px;
+        }
+
+        .div02{
+            max-width: 350px;
+          margin-left: 0px;
+          padding-top: 50px;
+          padding-left: 50px;
+        }
+        .but1{
+            width: 250px;
+            height: 60px;
+            border-radius: 5px;
+            border: 0ch;
+            background-color: rgb(137, 72, 72);
+            color: white;
+            font-size: larger;
+            font-weight: 500;
+
+            
+        }
+
