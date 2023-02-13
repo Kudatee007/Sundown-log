@@ -1,8 +1,11 @@
-import React from 'react'
+import React from 'react';
+import Component1 from './Component1'
 
 const Components = () => {
   return (
-    <div>Components</div>
+    <div>
+      <Component1 />
+    </div>
   )
 }
 
