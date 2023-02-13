@@ -7,7 +7,7 @@
     
         width: 100%;
         height: 100vh;
-        background-image: url('../Images/lambo.jpg');
+        background-image: url('../img/3\ in1.jpg');
         background-size: cover;
         background-repeat: no-repeat;
         animation-name: example;
@@ -16,10 +16,10 @@
       }
       
       @keyframes example {
-          25% {background-image: url('../Images/lambo.jpg');}
-          50% {background-image: url('../Images/interior.jpg');}
-          75% {background-image: url('../Images/limo.jpg');}
-          100% {background-image: url('../Images/truck.jpg');}
+          25% {background-image: url('../img/3\ in1.jpg');}
+          50% {background-image: url('../img/escalade.jpg');}
+          75% {background-image: url('../img/surban.webp');}
+          100% {background-image: url('../img/truck.jpg');}
         }
 
         .h11{
@@ -28,6 +28,7 @@
             text-align: left;
             padding-left: 50px;
             padding-top: 50px;
+            max-width: 600px;
         }
         .p11{
             font-size: large;
@@ -35,6 +36,7 @@
             color: white;
             text-align: left;
             padding-left: 50px;
+            max-width: 700px;
         }
 
         .div02{
@@ -43,7 +45,7 @@
           padding-top: 50px;
           padding-left: 50px;
         }
-        .but1{
+        .btn1{
             width: 250px;
             height: 60px;
             border-radius: 5px;
