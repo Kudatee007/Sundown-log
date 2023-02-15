@@ -1,0 +1,48 @@
+.div2{
+    padding: 50px;
+    /* height: 600px; */
+}
+.div22{
+    /* padding-top: 200px; */
+}
+
+.h22{
+    text-align: center;
+    font-size: 40px;
+}
+
+.p22{
+   text-align: center;
+    max-width: 900px;
+    margin: 0 auto;
+    font-size: large;
+   font-weight: 500;
+}
+
+.img1{
+    width: 300px;
+    height: 200px;
+    border-radius: 5px;
+    border:solid white 1px;
+    
+}
+
+/* .grid1{
+    background-image: url('../img/airport.jpeg');
+    width: 300px;
+    height: 300px;
+    background-size: auto;
+    background-repeat: no-repeat;
+} */
+.grid_div{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    text-align: center;
+    padding: 50px;
+   
+}
+.h55{
+    font-size: large;
+    font-weight: 500;
+}

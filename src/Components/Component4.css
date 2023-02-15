@@ -1,0 +1,27 @@
+.div4{
+    padding: 50px;
+}
+
+.img2{
+    width: 100px;
+    height: 100px;
+    padding-bottom: 30px;
+}
+
+.flex{
+    text-align: center;
+}
+
+.flex_div{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.p4{
+    text-align: center;
+    max-width: 350px;
+    margin: 0 auto;
+    font-size: medium;
+   font-weight: 400;
+}
