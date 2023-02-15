@@ -3,6 +3,18 @@ import './Component4.css'
 import secured from '../img/verified.png'
 import car from '../img/electric-car.png'
 import cost from '../img/cost.png'
+import limo1 from '../img/limo stretch.jpg'
+import benz from '../img/benz.jpg'
+import mkt from '../img/mkt.png'
+import escalade from '../img/Escalade limo.jpg'
+import cadi from '../img/cadillac.webp'
+import chevrolet from '../img/chevrolet.jpg'
+import ford from '../img/ford.jpg'
+import partyv from '../img/partyyy.jpg'
+import sprinter from '../img/sprinter van.png'
+import delivery from '../img/delivery van.webp'
+import vip from '../img/vip.png'
+import dryv from '../img/dry van 2.webp'
 
 const Component4 = () => {
     return (
@@ -21,7 +33,7 @@ const Component4 = () => {
                 <div className='flex'>
                     <img className='img2' src={car} alt="" />
                     <p className='p4'>
-                        Bentraco Logistics provides high-quality private car services under the name of extravagance chauffeured car services.
+                        <span>BENTRACO LOGISTICS</span> provides high-quality private car services under the name of extravagance chauffeured car services.
                     </p>
                 </div>
                 <div className='flex'>
@@ -32,10 +44,57 @@ const Component4 = () => {
                 </div>
             </div>
             <div>
-                <h1 className='h22'>Our Fleets</h1>
+                <h1 className='h22'>Our Fleet</h1>
             </div>
             <div className='grid_div11'>
-
+                <div className='grid2'>
+                    <img className='img3' src={limo1} alt="" />
+                    <label htmlFor="">Stretch Limo <br /> seats: 8</label>
+                </div>
+                <div className='grid2'>
+                    <img className='img3' src={benz} alt="" />
+                    <label htmlFor="">Mercedes Benz S550 <br /> seats: 4</label>
+                </div>
+                <div className='grid2'>
+                    <img className='img3' src={mkt} alt="" />
+                    <label htmlFor="">Lincoln Mkt</label>
+                </div>
+                <div className='grid2'>
+                    <img className='img3' src={escalade} alt="" />
+                    <label htmlFor="">Escalade Stretch</label>
+                </div>
+                <div className='grid2'>
+                    <img className='img3' src={cadi} alt="" />
+                    <label htmlFor="">Cardillac Escalade</label>
+                </div>
+                <div className='grid2'>
+                    <img className='img3' src={ford} alt="" />
+                    <label htmlFor="">Expedition</label>
+                </div>
+                <div className='grid2'>
+                    <img className='img3' src={chevrolet} alt="" />
+                    <label htmlFor="">Chevrolet Suburban</label>
+                </div>
+                <div className='grid2'>
+                    <img className='img3' src={partyv} alt="" />
+                    <label htmlFor="">              Party Van  Seats: 14-24</label>
+                </div>
+                <div className='grid2'>
+                    <img className='img3' src={sprinter} alt="" />
+                    <label htmlFor="">Sprinter Van <br /> Seats: 14</label>
+                </div>
+                <div className='grid2'>
+                    <img className='img3' src={delivery} alt="" />
+                    <label htmlFor="">Delivery Van</label>
+                </div>
+                <div className='grid2'>
+                    <img className='img3' src={vip} alt="" />
+                    <label htmlFor="">Charter Bus Seats: 55</label>
+                </div>
+                <div className='grid2'>
+                    <img className='img3' src={dryv} alt="" />
+                    <label htmlFor=""><br /> Dry Van</label>
+                </div>
             </div>
         </div>
     )

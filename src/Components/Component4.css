@@ -25,3 +25,26 @@
     font-size: medium;
    font-weight: 400;
 }
+
+.img3{
+    width: 250px;
+    height: 200px;
+    border-radius: 5px;
+    border:solid white 1px;
+    
+}
+
+.grid_div11{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    text-align: center;
+    padding: 50px;
+   
+}
+span{
+    font-weight: 500;
+}
+label{
+    color: brown;
+}
