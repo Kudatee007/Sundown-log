@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import logo from './img/BENTRACO (13) 1.svg'
 import './Navbar.css'
 import hamburger from './img/tabler_menu-2.svg'
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
     const [expand, setExpand] = useState(true);
@@ -14,9 +15,9 @@ const Navbar = () => {
         <div className='navBar'>
             <img src={logo} alt="" />
             <div className={expand ? "nav" : "nav nav-NX"}>
-                <h1>Home</h1>
+            <Link to="/" className='link'><h1>Home</h1></Link>
                 <h1>Services</h1>
-                <h1>Contact Us</h1>
+                <Link to="/contactUs" className='link'><h1>Contact Us</h1></Link>
                 <h1>About Us</h1>
             <button className='btnBook'>Booking</button>
             </div>
