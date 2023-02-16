@@ -34,13 +34,12 @@ const ContactUs = () => {
       <div className="Footer">
         <div className="foot">
           <h1>G<span className="span">et</span> in touch</h1>
-          <p>
+          <p className="footPPP">
             At USA Limo Service, we always strive to provide the best customer
             service possible. Our Customer Service Agents are always available
             to help with your reservations, and we are happy to assist with any
             special requests or requirements.
           </p>
-          <p>I'll answer all inquiries as soon as humanly possible!</p>
           <h1>Bu<span className="span">si</span>ness Hours</h1>
           <p>Reservation and Dispatch 24/7</p>
           <h1>Billing <span className="span">De</span>partment</h1>

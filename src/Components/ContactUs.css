@@ -6,7 +6,8 @@
     display: flex;
     justify-content: space-around;
     padding: 85px 85px;
-    background-color: #F0F2F7;
+    background-color: #fafafd;
+    border-top: 4px solid #F0F2F7;
   }
   .footLogo{
       text-align: center;
@@ -177,6 +178,10 @@
           flex-direction: column-reverse;
           justify-content: space-around;
           padding: 85px 85px;
+        }
+       .foot > .footPPP {
+          width: auto;
+          
         }
   }
   @media (max-width: 540px) {
