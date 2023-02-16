@@ -1,0 +1,141 @@
+.limoFooter {
+   background-color: #F4F4F4;
+   display: flex;
+   justify-content: space-around;
+   padding: 100px;
+   align-items: center;
+}
+.limo {
+    text-align: center;
+}
+.limo > h1 {
+    font-size: 1.8em;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 30px;
+    color: #1d2127;
+    padding-bottom: 20px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.limo > p {
+    font-size: 1.2em;
+    color: #777;
+    line-height: 24px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.btnBookNow {
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    background-color: #FF0000;
+    width: 180px;
+    border-radius: 10px;
+    border: none;
+    height: 50px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 17px;
+}
+.linksFooter{
+    background: #0e0e0e;
+    border-top: 4px solid #515151;
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+}
+.quick {
+    color: #fff;
+    padding-bottom: 20px;
+}
+.links {
+    font-size: 1.2em;
+    color: #fff;
+    line-height: 30px;
+    font-family: "Open Sans", Arial, sans-serif;
+}
+.Links {
+    text-align: center;
+}
+.uls {
+    list-style: none;
+}
+.contactUs {
+    color: #fff;
+    padding-bottom: 20px;
+}
+.footbox {
+    display: flex;
+    gap: 12px;
+    padding-bottom: 10px;
+    align-items: center;
+  }
+  .footbox > h5 {
+    font-family: "Source Sans Pro";
+    font-style: normal;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 25px;
+    color: #fff;
+  }
+  .copyright {
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+  }
+  .copyright > h5 {
+    color: #555;
+    line-height: 22px;
+  }
+  .copyright > h5 > span {
+    color: #fff;
+    font-size: 17px;
+  }
+@media (max-width: 770px) {
+    .limoFooter {
+        gap: 50px;
+    }
+}
+@media (max-width: 700px) {
+    .btnBookNow {
+        width: 320px;
+    }
+    .quick {
+        font-size: 25px;
+    }
+    .links {
+        font-size: 1.0em;
+    }
+    .footbox > h5 {
+        font-size: 1.0em;
+    }
+    .contactUs {
+        font-size: 25px;
+    }
+    .limoFooter {
+        flex-direction: column;
+    }
+}
+@media (max-width: 480px) {
+    .linksFooter {
+        flex-direction: column;
+        gap: 70px;
+    }
+    .limo > h1 {
+        width: 23ch;
+    }
+}
+@media (max-width: 420px) {
+   .limoFooter {
+    text-align: center;
+   }
+   .BOX {
+    text-align: center;
+   }
+}
+@media (max-width: 360px) {
+    .limo > h1 {
+        width: 18ch;
+    }
+    .btnBookNow {
+        width: 100%;
+    }
+ }
