@@ -27,6 +27,7 @@
     
 }
 
+
 /* .grid1{
     background-image: url('../img/airport.jpeg');
     width: 300px;
@@ -42,7 +43,64 @@
     padding: 50px;
    
 }
+.grid_div:hover{
+    background-color: whitesmoke;
+}
 .h55{
     font-size: large;
     font-weight: 500;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px){
+    .grid_div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        text-align: center;
+        padding: 50px;
+       
+    }
+}
+@media screen and (min-width: 456px) and (max-width: 767px){
+    .grid_div{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        text-align: center;
+        padding: 50px;
+       
+    }
+    .img1{
+        width: 180px;
+        height: 150px;
+        border-radius: 5px;
+        border:solid white 1px;
+        
+    }
+}
+@media screen and (min-width: 200px) and (max-width: 456px){
+    .grid_div{
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        text-align: center;
+        padding: 50px;
+       
+    }
+    .img1{
+        width: 250px;
+        height: 170px;
+        border-radius: 5px;
+        border:solid white 1px;
+        
+    }
+    .h22{
+        text-align: center;
+        font-size: medium;
+        
+    }
+    .h55{
+        font-size: medium;
+        font-weight: 500;
+    }
 }

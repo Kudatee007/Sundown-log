@@ -61,3 +61,71 @@
   font-size: larger;
   font-weight: 500;
 }
+@media screen and (min-width: 456px) and (max-width: 570px){
+  .h11 {
+    font-size: 40px;
+    color: white;
+    text-align: left;
+    padding-left: 50px;
+    padding-top: 30px;
+    max-width: 400px;
+  }
+  .p11 {
+    font-size: medium;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    max-width: 400px;
+  }
+  .div02 {
+    max-width: 350px;
+    margin-left: 0px;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .btn1 {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0ch;
+    background-color: rgb(137, 72, 72);
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 456px){
+  .h11 {
+    font-size: 30px;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    padding-top: 50px;
+    max-width: 300px;
+  }
+  .p11 {
+    font-size: small;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    padding-left: 30px;
+    max-width: 400px;
+  }
+  .div02 {
+    max-width: 350px;
+    margin-left: 0px;
+    padding-top: 50px;
+    padding-left: 30px;
+  }
+  .btn1 {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: 0ch;
+    background-color: rgb(137, 72, 72);
+    color: white;
+    font-size: larger;
+    font-weight: 500;
+  }
+}

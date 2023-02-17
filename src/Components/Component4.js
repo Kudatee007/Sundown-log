@@ -49,39 +49,39 @@ const Component4 = () => {
             <div className='grid_div11'>
                 <div className='grid2'>
                     <img className='img3' src={limo1} alt="" />
-                    <label htmlFor="">Stretch Limo <br /> seats: 8</label>
+                    <label htmlFor="">Limo </label>
                 </div>
                 <div className='grid2'>
                     <img className='img3' src={benz} alt="" />
-                    <label htmlFor="">Mercedes Benz S550 <br /> seats: 4</label>
+                    <label htmlFor="">Benz S550 </label>
                 </div>
                 <div className='grid2'>
                     <img className='img3' src={mkt} alt="" />
-                    <label htmlFor="">Lincoln Mkt</label>
+                    <label htmlFor="">Lincoln</label>
                 </div>
                 <div className='grid2'>
                     <img className='img3' src={escalade} alt="" />
-                    <label htmlFor="">Escalade Stretch</label>
+                    <label htmlFor="">Escalade</label>
                 </div>
                 <div className='grid2'>
                     <img className='img3' src={cadi} alt="" />
-                    <label htmlFor="">Cardillac Escalade</label>
+                    <label htmlFor="">Cardillac</label>
                 </div>
                 <div className='grid2'>
                     <img className='img3' src={ford} alt="" />
-                    <label htmlFor="">Expedition</label>
+                    <label htmlFor="">Ford</label>
                 </div>
                 <div className='grid2'>
                     <img className='img3' src={chevrolet} alt="" />
-                    <label htmlFor="">Chevrolet Suburban</label>
+                    <label htmlFor="">Chevrolet</label>
                 </div>
                 <div className='grid2'>
                     <img className='img3' src={partyv} alt="" />
-                    <label htmlFor="">              Party Van  Seats: 14-24</label>
+                    <label htmlFor="">              Party Van  </label>
                 </div>
                 <div className='grid2'>
                     <img className='img3' src={sprinter} alt="" />
-                    <label htmlFor="">Sprinter Van <br /> Seats: 14</label>
+                    <label htmlFor="">Sprinter Van </label>
                 </div>
                 <div className='grid2'>
                     <img className='img3' src={delivery} alt="" />
@@ -89,7 +89,7 @@ const Component4 = () => {
                 </div>
                 <div className='grid2'>
                     <img className='img3' src={vip} alt="" />
-                    <label htmlFor="">Charter Bus Seats: 55</label>
+                    <label htmlFor="">Charter Bus </label>
                 </div>
                 <div className='grid2'>
                     <img className='img3' src={dryv} alt="" />
