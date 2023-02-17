@@ -1,0 +1,99 @@
+.Booking {
+  text-align: center;
+  background-color: #fafafd;
+  padding: 70px 0;
+}
+.contactInfo {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 31px;
+  line-height: 48px;
+  letter-spacing: -0.82px;
+  color: #000913;
+  padding-bottom: 15px;
+}
+.spans {
+  color: red;
+}
+.labInput > label {
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 200;
+  font-size: 17px;
+  line-height: 48px;
+  letter-spacing: -0.82px;
+  color: #000913;
+}
+.labInput > input {
+  width: 500px;
+  height: 35px;
+  margin-left: 20px;
+}
+.labInput {
+  justify-content: center;
+  padding-bottom: 25px;
+}
+.condition {
+  color: red;
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 21px;
+  line-height: 48px;
+  letter-spacing: -0.82px;
+}
+.checkBox {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.btnBooks {
+  background-color: red;
+  color: white;
+  border: none;
+  height: 40px;
+  width: 180px;
+  border-radius: 8px;
+  margin-top: 40px;
+  font-family: "Source Serif Pro";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  letter-spacing: -0.82px;
+}
+@media (max-width: 900px) {
+  .labInput {
+    flex-direction: column;
+  }
+  .labInput > label {
+    display: flex;
+    padding-left: 12%;
+    justify-content: left;
+  }
+  .labInput > input {
+    width: 80%;
+    height: 35px;
+    margin-left: 0;
+  }
+  .labInput > label {
+    line-height: 34px;
+  }
+
+}
+@media (max-width: 540px) {
+    .contactInfo {
+        font-size: 26px;
+      }
+      .labInput > label {
+        font-size: 15px;
+      }
+}
+@media (max-width: 540px) {
+    .contactInfo {
+        font-size: 23px;
+      }
+      .labInput > label {
+        font-size: 15px;
+      }
+}

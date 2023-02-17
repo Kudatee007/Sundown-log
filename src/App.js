@@ -5,6 +5,7 @@ import Component from "./Components/Components";
 import Footer from "./Footer";
 import About from "./Components/AboutUs";
 import Services from "./Components/Services";
+import Booking from "./Components/Booking"
 
 function App() {
   return (
@@ -12,10 +13,11 @@ function App() {
       <BrowserRouter>
         <Navbar />
         <Routes>
-          <Route path="/" element={<Component />} />
+          {/* <Route path="/" element={<Component />} />
           <Route path="/services" element={<Services />} />
           <Route path="/contact" element={<ContactUs />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<About />} /> */}
+ <Route path="/" element={<Booking />} /> 
         </Routes>
         <Footer />
       </BrowserRouter>

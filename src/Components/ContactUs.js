@@ -14,10 +14,10 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "service_56v0gd9",
-        "template_bhz5txr",
+        "service_7mgroal",
+        "template_agumg9q",
         form.current,
-        "0UKUum03i5SkKtrwq"
+        "0l_7Ii5swDRXaZUNu"
       )
       .then(
         (result) => {
@@ -33,20 +33,28 @@ const ContactUs = () => {
     <div>
       <div className="Footer">
         <div className="foot">
-          <h1>G<span className="span">et</span> in touch</h1>
+          <h1>
+            G<span className="span">et</span> in touch
+          </h1>
           <p className="footPPP">
             At USA Limo Service, we always strive to provide the best customer
             service possible. Our Customer Service Agents are always available
             to help with your reservations, and we are happy to assist with any
             special requests or requirements.
           </p>
-          <h1>Bu<span className="span">si</span>ness Hours</h1>
+          <h1>
+            Bu<span className="span">si</span>ness Hours
+          </h1>
           <p>Reservation and Dispatch 24/7</p>
-          <h1>Billing <span className="span">De</span>partment</h1>
+          <h1>
+            Billing <span className="span">De</span>partment
+          </h1>
           <p>Monday - Friday - 9AM-5PM EST</p>
         </div>
         <div className="foot2">
-          <h1 className="Cont">The o<span className="span">ff</span>ice</h1>
+          <h1 className="Cont">
+            The o<span className="span">ff</span>ice
+          </h1>
           <hr className="Line" />
           <div className="footBox">
             <img src={location} alt="" />
