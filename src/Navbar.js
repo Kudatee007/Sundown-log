@@ -13,7 +13,9 @@ const Navbar = () => {
   return (
     <div className="Navbar">
       <div className="navBar">
+        <Link to="/">
         <img src={logo} alt="" />
+        </Link>
         <div className={expand ? "nav" : "nav nav-NX"}>
           <Link to="/" className="link">
             <h1>Home</h1>

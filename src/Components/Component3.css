@@ -15,4 +15,45 @@
         padding: 50px;
        
     }
+    .p22{
+        text-align: center;
+         max-width: 500px;
+         margin: 0 auto;
+         font-size: small;
+        font-weight: 500;
+     }
+}
+@media screen and (min-width: 456px) and (max-width: 767px){
+    .grid_div1{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        text-align: center;
+        padding: 50px;
+       
+    }
+    .p22{
+        text-align: center;
+         max-width: 500px;
+         margin: 0 auto;
+         font-size: small;
+        font-weight: 500;
+     }
+}
+@media screen and (min-width: 200px) and (max-width: 456px){
+    .grid_div1{
+        display: block;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        text-align: center;
+        padding: 50px;
+       
+    }
+    .p22{
+        text-align: center;
+         max-width: 500px;
+         margin: 0 auto;
+         font-size: small;
+        font-weight: 500;
+     }
 }
