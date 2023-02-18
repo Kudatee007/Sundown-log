@@ -13,7 +13,9 @@ const Footer = () => {
           <h1>BENTRACO Logistics LLC. is your source for transportation.</h1>
           <p>Ask About our Daily Specials for the DC area!</p>
         </div>
-        <button className="btnBookNow">Book Now!</button>
+        <Link to="/booking">
+          <button className="btnBookNow">Book Now!</button>
+        </Link>
       </div>
 
       <div className="linksFooter">

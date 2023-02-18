@@ -82,7 +82,7 @@ const Services = () => {
           <img className='img6' src={delivery} alt="" />
         </div>
         <div>
-          <h2>DELIVERY</h2>
+          <h2>DELIVERY VAN</h2>
           <p className='p6'>
             BENTRACO LOGISTICS  offers Delivery Van services for larger items and small freight delivery needs. If your shipments are larger in size but require expedited or time specific delivery, Reliable Delivery has an option to fit your need!
           </p>

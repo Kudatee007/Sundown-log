@@ -1,5 +1,6 @@
 import React from 'react'
 import './Component.css'
+import { Link } from "react-router-dom";
 
 const Component1 = () => {
     return (
@@ -11,7 +12,9 @@ const Component1 = () => {
                 <p className='p11'>Enjoy your ride with our affordable, reliable and convenient vehicles to chauffeur you to your next journey.
                     So, book your next Limo and Truck anywhere in the USA.</p>
                 <div className='div02'>
+                    <Link to="/booking">
                     <button className='btn1'>Make A Reservation</button>
+                    </Link>
                 </div>
             </div>
         </div>
