@@ -29,7 +29,7 @@ const Navbar = () => {
           <Link to="/about" className="link">
             <h1>About Us</h1>
           </Link>
-          <button className="btnBook">Booking</button>
+          <Link to="/booking"><button className="btnBook">Booking</button></Link>
         </div>
         <div className="hamburger">
           <img src={hamburger} alt="" className="ham" onClick={handler} />
