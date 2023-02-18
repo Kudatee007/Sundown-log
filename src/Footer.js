@@ -38,11 +38,11 @@ const Footer = () => {
           </div>
           <div className="footbox">
             <img src={mail} alt="" />
-            <h5>12345678910@gmail.com</h5>
+            <h5>Bentracologistics@gmail.com</h5>
           </div>
           <div className="footbox">
             <img src={phoneCall} alt="" />
-            <h5>+123 45678910</h5>
+            <h5>+1 470 265-9412</h5>
           </div>
         </div>
       </div>
