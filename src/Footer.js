@@ -34,15 +34,15 @@ const Footer = () => {
           <h1 className="contactUs">Contact Us</h1>
           <div className="footbox">
             <img src={location} alt="" />
-            <h5>Arlington, VA 22204</h5>
+            <h5>2145 E West Connector Apt 202 Austell GA 30106-8191</h5>
           </div>
           <div className="footbox">
             <img src={mail} alt="" />
-            <h5>12345678910@gmail.com</h5>
+            <h5>Bentracologistics@gmail.com</h5>
           </div>
           <div className="footbox">
             <img src={phoneCall} alt="" />
-            <h5>+123 45678910</h5>
+            <h5>+1 470 265-9412</h5>
           </div>
         </div>
       </div>

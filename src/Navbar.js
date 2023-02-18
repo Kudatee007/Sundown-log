@@ -14,9 +14,9 @@ const Navbar = () => {
     <div className="Navbar">
       <div className="navBar">
         <Link to="/">
-        <img src={logo} alt="" />
+          <img src={logo} alt="" />
         </Link>
-        <div className={expand ? "nav" : "nav nav-NX"}>
+        <div className={expand ? "navs" : "navs navs-NX"}>
           <Link to="/" className="link">
             <h1>Home</h1>
           </Link>
@@ -30,7 +30,7 @@ const Navbar = () => {
             <h1>About Us</h1>
           </Link>
           <Link to="/booking">
-          <button className="btnBook">Booking</button>
+            <button className="btnBook">Booking</button>
           </Link>
         </div>
         <div className="hamburger">

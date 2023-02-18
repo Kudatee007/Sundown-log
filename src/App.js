@@ -5,7 +5,7 @@ import Component from "./Components/Components";
 import Footer from "./Footer";
 import About from "./Components/AboutUs";
 import Services from "./Components/Services";
-import Booking from "./Components/Booking"
+import Booking from "./Components/Booking";
 
 function App() {
   return (
