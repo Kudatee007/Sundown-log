@@ -37,7 +37,7 @@ const ContactUs = () => {
             G<span className="span">et</span> in touch
           </h1>
           <p className="footPPP">
-            At USA Limo Service, we always strive to provide the best customer
+            At BENTRACO LOGISTICS, we always strive to provide the best customer
             service possible. Our Customer Service Agents are always available
             to help with your reservations, and we are happy to assist with any
             special requests or requirements.
@@ -58,15 +58,15 @@ const ContactUs = () => {
           <hr className="Line" />
           <div className="footBox">
             <img src={location} alt="" />
-            <h5>Arlington, VA 22204</h5>
+            <h5>2145 E West Connector Apt 202 Austell GA 30106-8191</h5>
           </div>
           <div className="footBox">
             <img src={mail} alt="" />
-            <h5>12345678910@gmail.com</h5>
+            <h5>Bentracologistics@gmail.com</h5>
           </div>
           <div className="footBox">
             <img src={phoneCall} alt="" />
-            <h5>+123 45678910</h5>
+            <h5>+1 470 265-9412</h5>
           </div>
           <form ref={form} onSubmit={sendEmail}>
             <div className="Input">

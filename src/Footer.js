@@ -10,8 +10,8 @@ const Footer = () => {
     <div>
       <div className="limoFooter">
         <div className="limo">
-          <h1>BENTRACO Logistics LLC. is your source for transportation.</h1>
-          <p>Ask About our Daily Specials for the DC area!</p>
+          <h1>BENTRACO Logistics LLC is your number one choice for transportation.</h1>
+          <p>Ask About our Daily Specials for the GA area!</p>
         </div>
         <Link to="/booking">
           <button className="btnBookNow">Book Now!</button>

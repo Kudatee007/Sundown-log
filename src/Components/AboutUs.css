@@ -1,0 +1,44 @@
+.about_div{
+    background-image: url('../img/black\ benz.jpg');
+    background-size: cover;
+    padding: 250px;
+    /* width: 100%; */
+    /* height: 500px; */
+}
+.about_div2{
+    padding: 50px;
+}
+
+.h17{
+    text-align: center;
+    color: black;
+    font-weight: 700;
+    padding: 50px 0;
+    font-family: "Source Sans Pro";
+    font-style: normal;
+}
+.p8{
+    font-size: large;
+    text-align: center;
+
+}
+
+@media screen and (min-width: 767px) and (max-width: 1150px){
+    .about_div{
+        background-image: url('../img/black\ benz.jpg');
+        background-size: cover;
+        padding: 200px;
+        /* width: 100%; */
+        /* height: 500px; */
+    }
+}
+
+@media screen and (min-width: 317px) and (max-width: 482px){
+    .about_div{
+        background-image: url('../img/black\ benz.jpg');
+        background-size: cover;
+        padding: 100px;
+        /* width: 100%; */
+        /* height: 500px; */
+    }
+}
