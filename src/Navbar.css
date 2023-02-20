@@ -73,6 +73,9 @@
 .hamburger {
   display: none;
 }
+#cancel {
+  display: none;
+}
 @media (max-width: 1000px) {
   .navs {
     gap: 20px;
@@ -95,9 +98,10 @@
     margin-left: 20px;
   }
 }
-@media (max-width: 760px) {
+@media (max-width: 770px) {
   .navs {
-    display: none;
+    position: absolute;
+    left: -1000px;
   }
   .navs-NX {
     display: block;
@@ -107,12 +111,12 @@
     height: 100vh;
     position: fixed;
     top: 0;
+    left: 0;
     padding: 100px 0;
     text-align: center;
   }
   .hamburger {
     display: block;
-    z-index: 1;
   }
   .navBar {
     position: relative;
@@ -132,6 +136,21 @@
     padding: 5px 5px;
   }
   .link > h1 {
-    padding: 20px 0;
+    padding: 25px 0;
+    color: white;
+  }
+ #cancel {
+    display: block;
+    width: 45px;
+    position: absolute;
+    top: 25px;
+    right: 34px;
+  }
+  .link > h1:hover {
+    background-color: black;
+    color: white;
+    padding: 0px 0px;
+    box-sizing: border-box;
+    transition: 0.5s;
   }
 }
