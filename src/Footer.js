@@ -24,10 +24,11 @@ const Footer = () => {
             <li>
               <h1 className="quick">Quick Links</h1>
             </li>
-           <Link to="/" className="link"> <li className="links">Home</li></Link>
-            <Link to="/services" className="link"><li className="links">Services</li></Link>
-            <Link to="/contact" className="link"><li className="links">Contact Us</li></Link>
-            <Link to="/about" className="link"><li className="links">About Us</li></Link>
+            <a href="/" className="link"><li className="links">Home</li></a>
+            <a href="/services" className="link"><li className="links">Services</li></a>
+            <a href="/contact" className="link"><li className="links">Contact Us</li></a>
+            <a href="/about" className="link"><li className="links">About us</li></a>
+          
           </ul>
         </div>
         <div className="BOX">
