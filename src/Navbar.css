@@ -69,7 +69,7 @@
 }
 .Navbar {
   background-color: white;
-  position: fixed;
+  position: sticky;
   width: 100%;
   top: 0;
 }

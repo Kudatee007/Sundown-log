@@ -9,13 +9,15 @@ const Footer = () => {
   return (
     <div>
       <div className="limoFooter">
-        <div className="limo"> 
-          <h1>BENTRACO Logistics LLC is your number one choice for transportation.</h1>
+        <div className="limo">
+          <h1>
+            BENTRACO Logistics LLC is your number one choice for transportation.
+          </h1>
           <p>Ask About our Daily Specials for the GA area!</p>
         </div>
-        <Link to="/booking">
+        <a href="/booking">
           <button className="btnBookNow">Book Now!</button>
-        </Link>
+        </a>
       </div>
 
       <div className="linksFooter">
@@ -24,11 +26,18 @@ const Footer = () => {
             <li>
               <h1 className="quick">Quick Links</h1>
             </li>
-            <a href="/" className="link"><li className="links">Home</li></a>
-            <a href="/services" className="link"><li className="links">Services</li></a>
-            <a href="/contact" className="link"><li className="links">Contact Us</li></a>
-            <a href="/about" className="link"><li className="links">About us</li></a>
-          
+            <a href="/" className="link">
+              <li className="links">Home</li>
+            </a>
+            <a href="/services" className="link">
+              <li className="links">Services</li>
+            </a>
+            <a href="/contact" className="link">
+              <li className="links">Contact Us</li>
+            </a>
+            <a href="/about" className="link">
+              <li className="links">About us</li>
+            </a>
           </ul>
         </div>
         <div className="BOX">
@@ -49,7 +58,10 @@ const Footer = () => {
       </div>
 
       <div className="copyright">
-        <h5>© Copyright 2017. BENTRACO Logistics LLC. All Rights Reserved. | By: <span>Sundown Tech Solutions</span></h5>
+        <h5>
+          © Copyright 2017. BENTRACO Logistics LLC. All Rights Reserved. | By:{" "}
+          <span>Sundown Tech Solutions</span>
+        </h5>
       </div>
     </div>
   );
