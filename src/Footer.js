@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <div>
       <div className="limoFooter">
-        <div className="limo">
+        <div className="limo"> 
           <h1>BENTRACO Logistics LLC is your number one choice for transportation.</h1>
           <p>Ask About our Daily Specials for the GA area!</p>
         </div>
