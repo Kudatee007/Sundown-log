@@ -73,7 +73,7 @@ const Services = () => {
         <div>
           <h2>FLATBED</h2>
           <p className='p6'>
-            BENTRACO LOGISTICS flatbed service provides solutions for standard and specialized equipment that can be difficult to locate. Flatbed offers capacity for pop-up, surge, over-dimensional, and dedicated services, regardless of industry. Trailer capacity varies by type. Whether you need a dedicated flatbed company, local flatbed delivery, regional flatbed services, or even a long haul trucking service. BENTRACO LOGISTICS will get your freight loaded on time and on the road. We provide solutions for standard and specialized equipment and freight that can be difficult to locate.
+            BENTRACO LOGISTICS flatbed service provides solutions for standard and specialized equipments that can be difficult to locate. Flatbed offers capacity for pop-up, surge, over-dimensional, and dedicated services, regardless of industry. Trailer capacity varies by type. Whether you need a dedicated flatbed company, local flatbed delivery, regional flatbed services, or even a long haul trucking service. BENTRACO LOGISTICS will get your freight loaded on time and on the road. We provide solutions for standard and specialized equipment and freight that can be difficult to locate.
           </p>
         </div>
       </div>
@@ -84,7 +84,7 @@ const Services = () => {
         <div>
           <h2>DELIVERY VAN</h2>
           <p className='p6'>
-            BENTRACO LOGISTICS  offers Delivery Van services for larger items and small freight delivery needs. If your shipments are larger in size but require expedited or time specific delivery, Reliable Delivery has an option to fit your need!
+            BENTRACO LOGISTICS  offers Delivery Van services for larger items and small freight delivery needs. If your shipments are larger in size but require expedited or time specific delivery, Bentraco Logistics has an option to fit your need.
           </p>
         </div>
       </div>

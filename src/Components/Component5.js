@@ -7,7 +7,7 @@ const Component5 = () => {
     return (
         <div className='main'>
             <div>
-                <h1 className='h22'>Client's Testimonials</h1>
+                <h1 className='h22'>Clients Testimonial</h1>
             </div>
             <div className='flex_div001'>
                 <div className='fleex'>
@@ -18,7 +18,7 @@ const Component5 = () => {
                 <div className='fleex'>
                     <img className='img5' src={kate} alt="Mrs Kate" />
                     <p className='p55'>
-                        Had a spectacular experience with BENTRACO limo service. I had to make a last minute reservation and they made the process seamless and very competitive. They were near 25% better than other companies. The black suburban we were picked up in was in perfect condition and our driver, Farouk was was a great communicator and was at the pick up spot within a minute of us waiting at the pick up area. Great service and will be using them again.
+                        Had a spectacular experience with BENTRACO limo service. I had to make a last minute reservation and they made the process seamless and very competitive. They were near 25% better than other companies. The black suburban we were picked up in was in perfect condition.
                     </p>
                     <h5>Mrs Kate</h5>
                 </div>

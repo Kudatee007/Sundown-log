@@ -9,9 +9,9 @@ const Footer = () => {
   return (
     <div>
       <div className="limoFooter">
-        <div className="limo">
-          <h1>BENTRACO Logistics LLC. is your source for transportation.</h1>
-          <p>Ask About our Daily Specials for the DC area!</p>
+        <div className="limo"> 
+          <h1>BENTRACO Logistics LLC is your number one choice for transportation.</h1>
+          <p>Ask About our Daily Specials for the GA area!</p>
         </div>
         <Link to="/booking">
           <button className="btnBookNow">Book Now!</button>
@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className="footbox">
             <img src={mail} alt="" />
-            <h5>Bentracologistics@gmail.com</h5>
+            <h5>bentracologistics@gmail.com</h5>
           </div>
           <div className="footbox">
             <img src={phoneCall} alt="" />
