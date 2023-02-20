@@ -7,7 +7,7 @@ const Component5 = () => {
     return (
         <div className='main'>
             <div>
-                <h1 className='h22'>Client's Testimonials</h1>
+                <h1 className='h22'>Clients Testimonial</h1>
             </div>
             <div className='flex_div001'>
                 <div className='fleex'>
