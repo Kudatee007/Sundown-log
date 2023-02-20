@@ -3,7 +3,7 @@ import "./Footer.css";
 import location from "./img/location.svg";
 import mail from "./img/mail.svg";
 import phoneCall from "./img/phonecall.svg";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
