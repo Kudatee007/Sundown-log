@@ -38,7 +38,7 @@ const Footer = () => {
           </div>
           <div className="footbox">
             <img src={mail} alt="" />
-            <h5>Bentracologistics@gmail.com</h5>
+            <h5>bentracologistics@gmail.com</h5>
           </div>
           <div className="footbox">
             <img src={phoneCall} alt="" />

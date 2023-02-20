@@ -62,7 +62,7 @@ const ContactUs = () => {
           </div>
           <div className="footBox">
             <img src={mail} alt="" />
-            <h5>Bentracologistics@gmail.com</h5>
+            <h5>bentracologistics@gmail.com</h5>
           </div>
           <div className="footBox">
             <img src={phoneCall} alt="" />
