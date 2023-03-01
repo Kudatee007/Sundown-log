@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import Arrow from "../img/Vector.svg";
 import "./ContactUs.css";
@@ -7,6 +7,10 @@ import phoneCall from "../img/phonecall.svg";
 import mail from "../img/mail.svg";
 
 const ContactUs = () => {
+
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  })
   const form = useRef();
 
   const sendEmail = (e) => {
