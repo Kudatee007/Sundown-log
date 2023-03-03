@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 import './Services.css'
 import airport from '../img/airport.jpeg'
 import wedding from '../img/weddings.webp'
@@ -9,6 +9,9 @@ import flatbed from '../img/flatbed.jpg'
 import delivery from '../img/delivery van.webp'
 
 const Services = () => {
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  })
   return (
     <div className='service'>
       <div className='flex6'>

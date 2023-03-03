@@ -1,8 +1,11 @@
-import React, { useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import emailjs from "@emailjs/browser";
 import "./Booking.css";
 
 const Booking = () => {
+  useEffect(()=>{
+    window.scrollTo(0, 0)
+  })
   const form = useRef();
 
   const sendEmail = (e) => {

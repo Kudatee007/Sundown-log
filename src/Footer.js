@@ -3,9 +3,14 @@ import "./Footer.css";
 import location from "./img/location.svg";
 import mail from "./img/mail.svg";
 import phoneCall from "./img/phonecall.svg";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+
 
 const Footer = () => {
+
+
+
+
   return (
     <div>
       <div className="limoFooter">
@@ -26,18 +31,19 @@ const Footer = () => {
             <li>
               <h1 className="quick">Quick Links</h1>
             </li>
-            <a href="/" className="link">
+            <Link to="/" className="link">
               <li className="links">Home</li>
-            </a>
-            <a href="/services" className="link">
+            </Link>
+            <Link to="/services" className="link">
               <li className="links">Services</li>
-            </a>
-            <a href="/contact" className="link">
-              <li className="links">Contact Us</li> 
-            </a>
-            <a href="/about" className="link">
+            </Link>
+            <Link to="/contact" className="link">
+              {" "}
+              <li className="links">Contact Us</li>
+            </Link>
+            <Link to="/about" className="link">
               <li className="links">About us</li>
-            </a>
+            </Link>
           </ul>
         </div>
         <div className="BOX">
