@@ -1,8 +1,8 @@
 import ContactUs from "./Components/ContactUs";
-import Navbar from "./Navbar";
+// import Navbar from "./Navbar";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Component from "./Components/Components";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 import About from "./Components/AboutUs";
 import Services from "./Components/Services";
 import Booking from "./Components/Booking";
